@@ -6,3 +6,5 @@ Scripts that automate different IT tasks to save time/money. Most of the scripts
 <br /> Report will be created as shown below - 
 <br />
 ![DiskSpaceReport](Images/DiskSpaceReport.png)
+
+•	**OutlookProfile.ps1**  - Creates new outlook profile. New profile name is "NewOutlookProfile". It first deletes existing registry keys & ost file for newoutlookprofile. Then it registers new profile name in windows registry & sets it as default profile. After running this script, outlook will connect with new local outlook profile. <br /> This script can be pushed from SCCM to software center on client computers. This way, user can create profile by himself without contacting IT team. 
