@@ -1,6 +1,6 @@
 # Powershell-Scripts
 
-•	**DiskSpaceReport.ps1**  –  Creates html report for drive capacity on windows servers and sends this report through email to IT admins. Additionally it saves report in a separate excel file. It highlights drives which have free space lower than 10 %. <br />This script can be scheduled to run once a day.  <br />Prerequisites:
+•	**DiskSpaceReport.ps1**  –  Creates html report for drive capacity on windows servers and sends this report through email to IT admins. Additionally it saves report in a separate excel file. It highlights volumes which have free space lower than 10 %. <br />Prerequisites:
 <br />3 text files are required - 1. Server IP List file   &nbsp;&nbsp;2. File that stores encryption key    &nbsp;&nbsp;3. File that stores encrypted admin password. <br /> Account with domain admin & exchage admin privileges
 <br /> Email will be sent as shown below - 
 <br />
